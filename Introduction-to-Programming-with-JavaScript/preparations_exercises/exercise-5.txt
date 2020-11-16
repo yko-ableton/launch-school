@@ -1,0 +1,14 @@
+- substring
+string, prototype
+
+- create
+object, static
+
+- fromCharCode
+string, static
+
+- slice
+array, string, prototype
+
+- toString
+string, object, array, number, prototype
