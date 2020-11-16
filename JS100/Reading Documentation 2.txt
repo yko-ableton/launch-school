@@ -1,0 +1,36 @@
+1. 
+let iceCreamTaste = 'chocolate';
+let iceCreamDensity = 10;
+
+while (iceCreamDensity > 0) {
+    console.log('Drip...');
+    iceCreamDensity -= 1;
+}
+
+console.log(`The ${iceCreamTaste} ice cream melted.`);
+
+2. string, number, bigint, boolean, undefined, null, undefined
+
+3. console.log(Number.MAX_VALUE)
+
+4. 20 + 9/10
+
+5. the method reutrns the number of milliseconds elapsed since Jan 1
+
+6. Date.getFullYear() returns the year (4 digits) of the specified date according to local time
+
+Date.getYear() returns the year (2-3 digits) in the specified date according to local time. 
+
+7. It expects one argument. If you call it without an argument, the separator defaults to ','. If more arguments are passed, they are ignored and defaults to the first argument passed. 
+
+8. String.prototype.concat()
+
+9.
+let speedLimit = 60;
+let currentSpeed = 80;
+
+if ((currentSpeed > speedLimit) && ((currentSpeed - speedLimit) > 5)) {
+    console.log('blah blah');
+}
+
+10. length is a property of an object and not a method and therefore, must be called without parentheses. 
