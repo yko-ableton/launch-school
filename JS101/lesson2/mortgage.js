@@ -14,8 +14,8 @@ function twoDecimal(number) {
   return Math.round(number * 100) / 100
 }
 
-prompt('Mortgage Calculator in US Dollars');
-prompt('Use this calculator for basic calculations of common loan types.');
+prompt('------- Mortgage Calculator -------');
+prompt('The currency is outputted in $, but the calculator can be used with any currency.');
 
 function mortgageCalculator() {
   prompt("What is the loan amount?");
@@ -78,6 +78,7 @@ function mortgageCalculator() {
   prompt(`Payment every month: $${twoDecimal(monthPayment)}`);
   prompt(`Total of ${loanDurationM} monthly payments: $${twoDecimal(totalPayment)}`);
   prompt(`Total Interest: $${twoDecimal(totalInterest)}`);
+  prompt('-----------------------');
 
   prompt('Calculate again? (y/n)');
   let answer = readline.question().toLocaleLowerCase();
