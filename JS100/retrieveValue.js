@@ -109,7 +109,7 @@ let nestedArray = Object.entries(person);
 let nestedArray = [['title', 'Duke'], ['name', 'Nukem'], ['age', 33]];
 let obj = {};
 for (let i = 0; i < nestedArray.length; i++) {
-    obj[nestedyArray[i][0]] = nestedyArray[i][1]
+  obj[nestedyArray[i][0]] = nestedyArray[i][1]
 }
 
 10.
